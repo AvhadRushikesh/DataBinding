@@ -9,11 +9,26 @@
             Padding="30,0"
             VerticalOptions="Center">
 
+            <HorizontalStackLayout>
+                
             <Label x:Name="txtName"
                   HorizontalOptions="Center"
-                  Text="Hector"
+                  Text="Name"
                   FontSize="50"
                   VerticalOptions="Center"/>
+
+            <Label x:Name="txtPhone"
+                  HorizontalOptions="Center"
+                  Text="Phone"
+                  FontSize="50"
+                  VerticalOptions="Center"/>
+
+            <Label x:Name="txtAddress"
+                  HorizontalOptions="Center"
+                  Text="Address"
+                  FontSize="50"
+                  VerticalOptions="Center"/>
+            </HorizontalStackLayout>
 
             <Button
                 x:Name="CounterBtn"
