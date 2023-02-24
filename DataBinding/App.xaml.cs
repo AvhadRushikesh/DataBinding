@@ -1,4 +1,6 @@
-﻿namespace DataBinding;
+﻿using DataBinding.Pages;
+
+namespace DataBinding;
 
 public partial class App : Application
 {
@@ -6,6 +8,6 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
+		MainPage = new SliderPage();
 	}
 }
