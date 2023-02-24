@@ -4,13 +4,6 @@
              x:Class="DataBinding.MainPage"
              xmlns:Models="clr-namespace:DataBinding.Models">
 
-    <ContentPage.Resources>
-        <Models:Person x:Key="person"
-                       Name="Peter"
-                       Address="Some Address"
-                       Phone="xxxx"/>
-    </ContentPage.Resources>
-
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"
@@ -21,7 +14,6 @@
                 x:Name="txtName"
                 FontSize="50"
                 HorizontalOptions="Center"
-                Text="{Binding Name, Source={StaticResource person}}"
                 VerticalOptions="Center"/>
 
            
