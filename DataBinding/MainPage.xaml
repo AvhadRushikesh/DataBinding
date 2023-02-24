@@ -24,21 +24,7 @@
                 Text="{Binding Name, Source={StaticResource person}}"
                 VerticalOptions="Center"/>
 
-            <Label 
-                x:Name="txtPhone"
-                FontSize="50"
-                HorizontalOptions="Center"
-                Text="{Binding Phone, Source={StaticResource person}}"
-                VerticalOptions="Center"/>
-
-            <Label 
-                x:Name="txtAddress"
-                FontSize="50"
-                HorizontalOptions="Center"
-                Text="{Binding Address, Source={StaticResource person}}"
-                VerticalOptions="Center"/>
-
-
+           
             <Button
                 x:Name="CounterBtn"
                 Text="Click me"

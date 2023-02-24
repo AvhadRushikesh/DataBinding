@@ -17,5 +17,8 @@ public partial class MainPage : ContentPage
 			Phone = "9999999999",
 			Address = "X Address"
 		};
+
+		txtName.BindingContext = person;
+		txtName.SetBinding(Label.TextProperty, "Name");
     }
 }
